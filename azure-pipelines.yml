@@ -1,6 +1,6 @@
-- task: AzureFunctionApp@1
-  inputs:
-    azureSubscription: 'Microsoft Azure Internal Consumption (4d542297-7d63-4938-a1d9-57280219dd90)'
-    appType: 'functionApp'
-    appName: 'raquintaFunctionAppTest'
-    package: '$(System.DefaultWorkingDirectory)/**/*.zip'
+-task: AzureFunctionApp@1
+inputs:
+  azureSubscription: 'Microsoft Azure Internal Consumption (4d542297-7d63-4938-a1d9-57280219dd90)'
+  appType: 'functionApp'
+  appName: 'raquintaFunctionAppTest'
+  package: '$(System.DefaultWorkingDirectory)/**/*.zip'
