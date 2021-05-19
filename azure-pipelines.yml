@@ -4,4 +4,3 @@
     appType: 'functionApp'
     appName: 'raquintaFunctionAppTest'
     package: '$(System.DefaultWorkingDirectory)/**/*.zip'
-    deploymentMethod: 'auto'
