@@ -1,11 +1,11 @@
 # ASP.NET Core
-- task: AzureRmWebAppDeployment@4
+- task: AzureFunctionApp@1
   inputs:
-    ConnectionType: 'AzureRM'
     azureSubscription: 'Microsoft Azure Internal Consumption (4d542297-7d63-4938-a1d9-57280219dd90)'
-    appType: 'webApp'
-    WebAppName: 'raquintaFunctionAppTest'
-    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
+    appType: 'functionApp'
+    appName: 'raquintaFunctionAppTest'
+    package: '$(System.DefaultWorkingDirectory)/**/*.zip'
+    deploymentMethod: 'auto'
 # Build and test ASP.NET Core projects targeting .NET Core.
 # Add steps that run tests, create a NuGet package, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
