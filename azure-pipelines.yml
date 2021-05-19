@@ -4,10 +4,7 @@
     ConnectionType: 'AzureRM'
     azureSubscription: 'Microsoft Azure Internal Consumption (4d542297-7d63-4938-a1d9-57280219dd90)'
     appType: 'webApp'
-    WebAppName: 'tianAppInsightsTest'
-    deployToSlotOrASE: true
-    ResourceGroupName: 'raquintainternalstorage'
-    SlotName: 'production'
+    WebAppName: 'raquintaFunctionAppTest'
     packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
 # Build and test ASP.NET Core projects targeting .NET Core.
 # Add steps that run tests, create a NuGet package, deploy, and more:
